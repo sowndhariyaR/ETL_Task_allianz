@@ -27,6 +27,7 @@ venv\Scripts\activate
 
  4. Run the ETL Process
 #python etl_program.py
+-- An Excel file named "hockey_stats" and a Zip file "html_files"  will be generated in the folder , where the "etl_program.py" is placed.
 
  5. Run Tests 
 #pytest
