@@ -11,12 +11,3 @@ def zip_html_files(zip_filename: str = 'html_files.zip', html_files: List[str] =
             zipf.writestr(file_name, html_content)
 
 
-#
-# import zipfile
-# from typing import List, Tuple
-#
-# def zip_html_files(zip_filename: str, html_files: List[Tuple[str, str]]):
-#     with zipfile.ZipFile(zip_filename, 'w') as zipf:
-#         for file_name, html_content in html_files:
-#             # Ensure html_content is a string and encode it to bytes
-#             zipf.writestr(file_name, html_content.encode('utf-8'))
